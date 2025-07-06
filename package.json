@@ -4,29 +4,33 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky",
-    "pre-commit": "lint-staged"
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.35.1",
+    "@typescript-eslint/parser": "^8.35.1",
     "eslint": "^9.30.0",
     "eslint-config-love": "^121.0.0",
     "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-node": "^11.1.0",
     "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.1.7",
+    "jest": "^30.0.4",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   },
   "lint-staged": {
     "*.ts": [
-      "eslint 'src' --fix",
-      "prettier --write",
-      "tsc-files --noEmit"
+      "eslint --fix",
+      "prettier --write"
     ]
   }
 }
