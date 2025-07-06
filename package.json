@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:staged": "jest",
     "prepare": "husky"
   },
   "keywords": [],
@@ -31,7 +32,8 @@
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
-      "prettier --write"
+      "prettier --write",
+      "npm run test:staged"
     ]
   }
 }
