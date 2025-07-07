@@ -13,10 +13,6 @@ export default [
     },
     rules: {
       'import/no-unresolved': 'error',
-      '@typescript-eslint/strict-boolean-expressions': 'off',
-      '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/no-magic-numbers': 'off',
-      '@typescript-eslint/class-methods-use-this': 'off',
     },
     plugins: {
       import: importPlugin,
@@ -24,4 +20,14 @@ export default [
   },
   love,
   prettier,
+  {
+    rules: {
+      'import/no-unresolved': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
+      '@typescript-eslint/strict-boolean-expressions': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-magic-numbers': 'off',
+      '@typescript-eslint/class-methods-use-this': 'off',
+    },
+  },
 ]
