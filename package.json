@@ -19,6 +19,8 @@
     "eslint": "^9.30.0",
     "eslint-config-love": "^121.0.0",
     "eslint-config-prettier": "^10.1.5",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-node": "^11.1.0",
     "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.1.7",
