@@ -2,6 +2,8 @@
   "compilerOptions": {
     "outDir": "./dist",
     "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
     "target": "es2022",
     "esModuleInterop": true,
     "strictNullChecks": true,
@@ -14,7 +16,7 @@
   "include": [
     "src",
     "eslint.config.ts",
-    "jest.config.ts"
+    "jest.*.config.ts"
   ],
   "exclude": [
     "node_modules"

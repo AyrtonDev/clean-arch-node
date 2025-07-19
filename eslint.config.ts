@@ -31,6 +31,7 @@ export default [
       '@typescript-eslint/no-unsafe-argument': 'off',
       '@typescript-eslint/no-unsafe-assignment': 'off',
       '@typescript-eslint/prefer-destructuring': 'off',
+      'no-console': 'off',
     },
   },
 ]
