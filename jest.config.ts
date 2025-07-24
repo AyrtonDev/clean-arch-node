@@ -11,7 +11,7 @@ const config: Config = {
   },
   testEnvironment: 'node',
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/**/*.d.ts'],
+  collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/main/**'],
   coverageDirectory: 'coverage',
   coverageReporters: ['text', 'lcov', 'json'],
 }
