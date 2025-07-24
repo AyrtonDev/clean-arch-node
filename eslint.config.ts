@@ -35,6 +35,8 @@ export default [
       '@typescript-eslint/no-extraneous-class': 'off',
       '@typescript-eslint/no-unsafe-type-assertion': 'off',
       '@typescript-eslint/non-nullable-type-assertion-style': 'off',
+      'array-callback-return': 'off',
+      'eslint-comments/require-description': 'off',
     },
   },
 ]
