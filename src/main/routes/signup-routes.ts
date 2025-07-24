@@ -2,6 +2,6 @@ import type { Router } from 'express'
 
 export default (router: Router): void => {
   router.post('/signup', (req, res) => {
-    res.send({ pk: 'ok' })
+    res.send({ ok: 'ok' })
   })
 }
